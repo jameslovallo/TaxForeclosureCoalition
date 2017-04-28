@@ -46,3 +46,36 @@
 .faceCol {
     height: 20vh !important;
 }
+
+#demands {
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 2.5em;
+}
+
+hr {
+    width: 30%;
+    height: 0.33em;
+    background: black;
+    margin-bottom: 1.6em;
+}
+
+p {
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+ol {
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+ol li {
+    margin-bottom: .5em;
+}
