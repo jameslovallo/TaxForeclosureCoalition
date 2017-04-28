@@ -16,7 +16,7 @@
     top: 0px;
     left: 0px;
     background: url('https://raw.githubusercontent.com/patrickonparker/Bernadette-Foreclosure/gh-pages/img/TF-Logo.png') no-repeat center center, rgba(0, 0, 0, 0.2);
-    background-size: 35%;
+    background-size: calc(.5 * (50vh + 50vw));
 }
 
 #header:after {
