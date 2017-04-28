@@ -203,15 +203,16 @@
             $('.carousel').carousel();
             $('.parallax').parallax();
             $('select').material_select();
+            $('.carousel.carousel-slider').carousel({
+                fullWidth: true
+            });
             autoplay()
 
             function autoplay() {
-                $('.carousel').carousel('next');
-                setTimeout(autoplay, 4000);
+                var x = Math.floor((Math.random() * 30) + 1);
+                $(".carousel:nth-child(" + x + ")").carousel('next');
+                setTimeout(autoplay, 1000);
             }
-        });
-        $('.carousel.carousel-slider').carousel({
-            fullWidth: true
         });
     </script>
     <script>
