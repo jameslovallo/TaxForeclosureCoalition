@@ -213,12 +213,21 @@
             <div class="col m2 s12 hide-on-small-only"></div>
         </div>
     </section>
+    <section id="filmTitle" class="title">
+        <div class="row">
+            <div class="col s12">
+                <h5>The Film: "Lorem Ipsum Dolor Sit Amet"</h5>
+                <hr> </div>
+        </div>
+    </section>
+    <div id="film" class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ScMzIvxBSi4?autoplay=0&showinfo=0&controls&rel=0" frameborder="0" allowfullscreen></iframe>
+    </div>
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script>
         $(document).ready(function () {
-            $('.carousel').carousel();
             $('.parallax').parallax();
             $('select').material_select();
             $('.carousel.carousel-slider').carousel({

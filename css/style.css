@@ -15,7 +15,7 @@
     width: 100vw;
     top: 0px;
     left: 0px;
-    background: url('https://raw.githubusercontent.com/patrickonparker/Bernadette-Foreclosure/gh-pages/img/TF-Logo.png') no-repeat center center, rgba(0, 0, 0, 0.2);
+    background: url('https://raw.githubusercontent.com/patrickonparker/Bernadette-Foreclosure/gh-pages/img/TF-Logo.png') no-repeat center center, rgba(0, 0, 0, 0.35);
     background-size: calc(.5 * (35vh + 35vw));
 }
 
@@ -27,7 +27,7 @@
     width: 100vw;
     top: 0px;
     left: 0px;
-    box-shadow: inset 0 0 calc(100vh + 100vw * 0.5) calc(10vh + 10vw * 0.5) rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 0 calc(10vh + 10vw * 0.5) calc(10vh + 10vw * 0.5) rgba(0, 0, 0, 0.25);
 }
 
 .face {
@@ -51,6 +51,18 @@
     text-align: center;
     margin-top: 3em;
     margin-bottom: 2.5em;
+}
+
+.title {
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 1em;
+    color: white;
+    background: black;
+}
+
+.title hr {
+    background: white;
 }
 
 hr {
