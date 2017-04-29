@@ -92,3 +92,34 @@ ol {
 ol li {
     margin-bottom: .5em;
 }
+
+.slider {
+    background: black !important;
+}
+
+.indicators {
+    background: black !important;
+}
+
+.caption {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    text-align: left !important;
+    top: auto !important;
+    bottom: 2em !important;
+    left: 2em !important;
+    width: calc(100% - 4em) !important;
+    border-top: .2em solid white;
+    border-bottom: .2em solid white;
+}
+
+.caption h5 {
+    font-family: 'Roboto' !important;
+    font-weight: 500 !important;
+    font-size: 1.4em;
+    text-transform: none;
+}
+
+.slides li img {
+    box-shadow: inset 0px -25vw 20vw -10vw rgba(0, 0, 0, 1) !important;
+}

@@ -230,12 +230,23 @@
                 <hr> </div>
         </div>
     </section>
+    <section id="facts">
+        <div class="slider">
+            <ul class="slides">
+                <li> <img src="img/fact1.jpg">
+                    <!-- random image -->
+                    <div class="caption center-align">
+                        <h5 class="light grey-text text-lighten-3">From 2011-2015, 1/4 Detroit homes were foreclosed.</h5> </div>
+                </li>
+            </ul>
+        </div>
+    </section>
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script>
         $(document).ready(function () {
-            $('.parallax').parallax();
+            $('.slider').slider();
             $('select').material_select();
             $('.carousel.carousel-slider').carousel({
                 fullWidth: true
