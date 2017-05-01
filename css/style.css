@@ -123,6 +123,7 @@ ol li {
     font-weight: 500 !important;
     font-size: 1.4em;
     text-transform: none;
+    text-shadow: 3px 3px black !important;
 }
 
 .slider {
