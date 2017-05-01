@@ -157,19 +157,6 @@ ol li {
     bottom: -30px;
 }
 
-.light-title {
-    text-align: center;
-    padding-top: 3em;
-    padding-bottom: 1em;
-    color: white;
-    background: #1b5e20;
-}
-
-.light-title hr {
-    background: white;
-    margin-top: 1em;
-}
-
 .actionCardTitle {
     height: 6em;
     background: white;
