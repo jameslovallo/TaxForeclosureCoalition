@@ -123,10 +123,9 @@ ol li {
     font-weight: 500 !important;
     font-size: 1.4em;
     text-transform: none;
-    text-shadow: 3px 3px black !important;
 }
 
-.slider {
+.slides img {
     box-shadow: inset 0px -25vh 20vw -10vw rgba(0, 0, 0, 1) !important;
 }
 
