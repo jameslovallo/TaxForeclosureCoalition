@@ -115,7 +115,7 @@ ol li {
     width: calc(100% - 4em) !important;
     border-top: .25em solid white;
     border-bottom: .25em solid white;
-    padding-bottom: 3px 0px;
+    padding: 3px 0px;
 }
 
 .caption h5 {
