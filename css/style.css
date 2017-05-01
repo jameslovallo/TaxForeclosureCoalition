@@ -126,7 +126,7 @@ ol li {
 }
 
 .slides li img {
-    box-shadow: inset 0px calc(-35vw - 35vh * 0.5) 20vw -10vw rgba(0, 0, 0, 1) !important;
+    box-shadow: inset 0px 10vh 20vw -10vw rgba(0, 0, 0, 1) !important;
 }
 
 .indicator-item {
