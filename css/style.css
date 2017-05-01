@@ -141,3 +141,18 @@ ol li {
 .indicator-item.active {
     background-color: white !important;
 }
+
+.factShare {
+    position: absolute;
+    right: 0px;
+    bottom: -30px;
+}
+
+.factShare a {
+    color: white;
+}
+
+.slideLabel {
+    position: absolute;
+    bottom: -30px;
+}
