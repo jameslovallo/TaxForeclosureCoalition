@@ -125,7 +125,7 @@ ol li {
     text-transform: none;
 }
 
-.slides li {
+.slides {
     box-shadow: inset 0px -25vh 20vw -10vw rgba(0, 0, 0, 1) !important;
 }
 
