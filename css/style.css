@@ -215,7 +215,7 @@ ol li {
 }
 
 #hashtag {
-    background: url("https://github.com/patrickonparker/Bernadette-Foreclosure/blob/gh-pages/img/shareLogo.jpg?raw=true") no-repeat bottom center, rgba(0, 0, 0, 0.7);
+    background: url("https://github.com/patrickonparker/Bernadette-Foreclosure/blob/gh-pages/img/shareLogo.jpg?raw=true") no-repeat center center, rgba(0, 0, 0, 0.7);
     background-size: cover;
 }
 
