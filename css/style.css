@@ -102,7 +102,7 @@ ol li {
 }
 
 .indicators {
-    position: absolute !important; bottom: 100% !important;
+    position: absolute !important; bottom: 10px !important;
 }
 
 .caption {
