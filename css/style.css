@@ -105,7 +105,7 @@ ol li {
     margin: 0px !important;
     padding: 0px !important;
     position: absolute;
-    bottom: 4px;
+    bottom: 4px !important;
     z-index: 999;
 }
 
