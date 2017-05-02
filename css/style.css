@@ -19,7 +19,7 @@
     width: 100vw;
     top: 0px;
     left: 0px;
-    background: url('https://raw.githubusercontent.com/patrickonparker/Bernadette-Foreclosure/gh-pages/img/TF-Logo.png') no-repeat center center, rgba(0, 0, 0, 0.30);
+    background: url("https://raw.githubusercontent.com/patrickonparker/Bernadette-Foreclosure/gh-pages/img/TF-Logo.png") no-repeat center center, rgba(0, 0, 0, 0.30);
     background-size: calc(.5 * (35vh + 35vw));
 }
 
@@ -210,7 +210,12 @@ ol li {
 }
 
 #joinTheFight {
-    background: url("https://github.com/patrickonparker/Bernadette-Foreclosure/blob/gh-pages/img/joinTheFight.jpg?raw=true") no-repeat bottom left;
+    background: url("https://github.com/patrickonparker/Bernadette-Foreclosure/blob/gh-pages/img/joinTheFight.jpg?raw=true") no-repeat bottom center, rgba(0, 0, 0, 0.7);
+    background-size: cover;
+}
+
+#hashtag {
+    background: url("https://github.com/patrickonparker/Bernadette-Foreclosure/blob/gh-pages/img/shareLogo.jpg?raw=true") no-repeat bottom center, rgba(0, 0, 0, 0.7);
     background-size: cover;
 }
 
@@ -223,6 +228,7 @@ ol li {
 
 .policy img {
     height: 4em !important;
+    width: 4em !important;
     float: left;
     margin-right: 1em;
 }
