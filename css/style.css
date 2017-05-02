@@ -102,7 +102,7 @@ ol li {
 }
 
 .indicators {
-    position: absolute !important;
+    position: absolute !important; bottom: 100% !important;
 }
 
 .caption {
@@ -135,7 +135,6 @@ ol li {
     height: 8px !important;
     margin-left: 6px !important;
     margin-right: 6px !important;
-    top: 0px;
 }
 
 .indicator-item.active {
