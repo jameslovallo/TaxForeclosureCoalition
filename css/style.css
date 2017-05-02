@@ -175,16 +175,23 @@ ol li {
 
 .slideLabel {
     position: absolute;
-    bottom: -36px;
+    bottom: -32px;
 }
 
 .actionCardTitle {
-    height: 6em;
+    height: 4em;
+    line-height: 2em;
+    text-align: left;
     background: white;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding: 1em;
 }
 
 .actionCardContent {
-    height: 20em;
+    height: 23em;
+    padding: 2em;
 }
 
 #action .row {
@@ -195,4 +202,33 @@ ol li {
 #action .col {
     margin: 0px;
     padding: 0px;
+}
+
+#learnMore {
+    background: url("https://github.com/patrickonparker/Bernadette-Foreclosure/blob/gh-pages/img/learnMore.jpg?raw=true") no-repeat bottom left;
+    background-size: cover;
+}
+
+#joinTheFight {
+    background: url("https://github.com/patrickonparker/Bernadette-Foreclosure/blob/gh-pages/img/joinTheFight.jpg?raw=true") no-repeat bottom left;
+    background-size: cover;
+}
+
+.policy {
+    margin: none !important;
+    padding: none !important;
+    height: 4em;
+    margin-bottom: 1em !important;
+}
+
+.policy img {
+    height: 4em !important;
+    float: left;
+    margin-right: 1em;
+}
+
+.policy span {
+    line-height: 2em;
+    color: white;
+    font-weight: 500;
 }
