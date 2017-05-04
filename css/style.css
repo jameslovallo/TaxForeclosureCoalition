@@ -238,3 +238,12 @@ ol li {
     color: white;
     font-weight: 500;
 }
+
+.date {
+    height: 4em !important;
+    width: 4em !important;
+    float: left;
+    margin-right: 1em;
+     background: white;
+     text-align: center;
+}
