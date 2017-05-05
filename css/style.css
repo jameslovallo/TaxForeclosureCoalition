@@ -224,6 +224,9 @@ ol li {
     padding: none !important;
     height: 4em;
     margin-bottom: 1em !important;
+    background: rgba(255, 255, 255, 0.2);
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
 }
 
 .policy img {
@@ -244,9 +247,20 @@ ol li {
     width: 4em !important;
     float: left;
     margin-right: 1em;
-     background: white;
-     text-align: center;
+    background: white;
+    text-align: center;
 }
 
-.month {color: black !important; display: block; line-height: 1em; font-variant: small-caps;}
-.day {color: black !important; display: block; font-size: 1.75em; line-height: .75em !important;}
+.month {
+    color: black !important;
+    display: block;
+    line-height: 1em;
+    font-variant: small-caps;
+}
+
+.day {
+    color: black !important;
+    display: block;
+    font-size: 1.75em;
+    line-height: .75em !important;
+}
