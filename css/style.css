@@ -227,6 +227,8 @@ ol li {
     background: rgba(255, 255, 255, 0.2);
     border-top-left-radius: 2em;
     border-bottom-left-radius: 2em;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
 
 .policy img {
@@ -249,6 +251,9 @@ ol li {
     margin-right: 1em;
     background: white;
     text-align: center;
+    line-height: 2em;
+    color: white;
+    font-weight: 500;
 }
 
 .month {
@@ -263,4 +268,10 @@ ol li {
     display: block;
     font-size: 1.75em;
     line-height: .75em !important;
+}
+
+.details {
+    line-height: 0em !important;
+    position: relative;
+    top: .56em !important;
 }
