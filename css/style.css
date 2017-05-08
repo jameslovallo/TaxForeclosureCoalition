@@ -187,6 +187,7 @@ ol li {
     font-size: 1.5em;
     text-transform: uppercase;
     padding: 1em;
+    width: 100%;
 }
 
 .actionCardContent {
@@ -274,4 +275,15 @@ ol li {
     line-height: 0em !important;
     position: relative;
     top: .56em !important;
+}
+
+.actionLink {
+    color: black;
+}
+
+.actionIcon {
+    float: right;
+    line-height: 2em !important;
+    color: black;
+    margin-left: 20px;
 }
