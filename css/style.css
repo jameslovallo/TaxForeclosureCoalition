@@ -232,6 +232,10 @@ ol li {
     border-bottom-right-radius: 3px;
 }
 
+.policy:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
 .policy img {
     height: 4em !important;
     width: 4em !important;
@@ -286,4 +290,21 @@ ol li {
     line-height: 2em !important;
     color: black;
     margin-left: 20px;
+}
+
+.modal {
+    background: #dedede
+}
+
+.modal-action {
+    font-weight: 400;
+    color: white;
+    float: left !important;
+    margin-left: 15px !important;
+    line-height: 2.75em;
+}
+
+.modal-footer {
+    border-top: 1px solid #ccc;
+    box-sizing: border-box !important;
 }
