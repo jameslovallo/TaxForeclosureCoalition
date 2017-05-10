@@ -312,3 +312,21 @@ ol li {
 .bottom-sheet {
     max-height: 75% !important;
 }
+
+.social .details {
+    margin-left: none !important;
+    left: 1em !important;
+    top: 1.33em !important;
+}
+
+.social .fa {
+    font-size: 2em;
+    float: left;
+    position: relative !important;
+    width: 2em;
+    height: 2em;
+    background: white;
+    color: black;
+    text-align: center;
+    border-radius: 2em;
+}
