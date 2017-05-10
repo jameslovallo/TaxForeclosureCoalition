@@ -308,3 +308,7 @@ ol li {
     border-top: 1px solid #ccc;
     box-sizing: border-box !important;
 }
+
+.bottom-sheet {
+    max-height: 75% !important;
+}
