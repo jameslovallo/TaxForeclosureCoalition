@@ -334,7 +334,7 @@ ol li {
 
 .topLink {
     position: absolute;
-    width: 220px;
+    width: 240px;
     left: calc(50vw - 110px);
     bottom: calc(20vh - 18px);
     z-index: 10;
