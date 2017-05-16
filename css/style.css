@@ -148,7 +148,7 @@ ol li {
 }
 
 .slides li img {
-    box-shadow: inset 0px -35vh 40vw -20vw rgba(0, 0, 0, 1) !important;
+    box-shadow: inset 0px -35vh 40vw -20vw rgba(0, 0, 0, 0.5) !important;
 }
 
 .indicator-item {
@@ -208,11 +208,13 @@ ol li {
 #learnMore {
     background: url("https://github.com/patrickonparker/Bernadette-Foreclosure/blob/gh-pages/img/learnMore.jpg?raw=true") no-repeat bottom left;
     background-size: cover;
+    text-align: center;
 }
 
 #joinTheFight {
     background: url("https://github.com/patrickonparker/Bernadette-Foreclosure/blob/gh-pages/img/joinTheFight.jpg?raw=true") no-repeat bottom center, rgba(0, 0, 0, 0.7);
     background-size: cover;
+    text-align: center;
 }
 
 #hashtag {
@@ -310,7 +312,7 @@ ol li {
 }
 
 .bottom-sheet {
-    max-height: 75% !important;
+    max-height: 80% !important;
 }
 
 .social .details {
@@ -328,4 +330,22 @@ ol li {
     color: black;
     text-align: center;
     border-radius: 2em;
+}
+
+.topLink {
+    position: absolute;
+    width: 220px;
+    left: calc(50vw - 110px);
+    bottom: calc(20vh - 18px);
+    z-index: 10;
+}
+
+.actionCardLink {
+    position: relative;
+    top: 15.7em;
+    width: 85%;
+}
+
+.dashedBorder {
+    border-bottom: 1px dashed #dfdfdf !important;
 }
