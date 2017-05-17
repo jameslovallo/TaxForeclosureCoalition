@@ -138,6 +138,7 @@ ol li {
     border-top: .25em solid white;
     border-bottom: .25em solid white;
     padding-bottom: 1px !important;
+    text-shadow: 1px 1px 5px black;
 }
 
 .caption h5 {
@@ -157,7 +158,8 @@ ol li {
     height: 8px !important;
     margin-left: 6px !important;
     margin-right: 6px !important;
-    bottom: .8em
+    bottom: .8em;
+    box-shadow: 1px 1px 4px black;
 }
 
 .indicator-item.active {
@@ -348,7 +350,7 @@ ol li {
 .actionCardLink {
     position: relative;
     top: 15.7em;
-    width: 85%;
+    width: 75%;
 }
 
 .dashedBorder {
