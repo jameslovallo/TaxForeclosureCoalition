@@ -111,10 +111,10 @@ ol li {
 
 @media only screen and (min-width:1024px) {
     .slider {
-        height: 660px !important;
+        height: 700px !important;
     }
     .slides {
-        height: 660px !important;
+        height: 700px !important;
     }
 }
 
@@ -132,7 +132,7 @@ ol li {
     margin-bottom: 0px !important;
     text-align: left !important;
     top: auto !important;
-    bottom: 2em !important;
+    bottom: 3em !important;
     left: 2em !important;
     width: calc(100% - 4em) !important;
     border-top: .25em solid white;
@@ -148,7 +148,7 @@ ol li {
 }
 
 .slides li img {
-    box-shadow: inset 0px -35vh 40vw -20vw rgba(0, 0, 0, 0.5) !important;
+    box-shadow: inset 0px -35vh 40vw -20vw rgba(0, 0, 0, 0.7) !important;
 }
 
 .indicator-item {
@@ -157,6 +157,7 @@ ol li {
     height: 8px !important;
     margin-left: 6px !important;
     margin-right: 6px !important;
+    bottom: .8em
 }
 
 .indicator-item.active {
@@ -334,10 +335,14 @@ ol li {
 
 .topLink {
     position: absolute;
-    width: 240px;
+    width: 220px;
     left: calc(50vw - 110px);
-    bottom: calc(20vh - 18px);
+    bottom: 10vh;
     z-index: 10;
+    background: white;
+    color: black;
+    padding: 10px 15px;
+    height: auto;
 }
 
 .actionCardLink {
