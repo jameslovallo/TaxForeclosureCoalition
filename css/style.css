@@ -302,9 +302,7 @@ ol li {
 }
 
 .modal {
-    background: #dedede;
-    background: rgba(200, 200, 200, 0.9);
-    -webkit-backdrop-filter(10px)
+    background: rgba(250, 250, 250, 0.9);
 }
 
 .modal-action {
