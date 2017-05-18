@@ -157,13 +157,14 @@ ol li {
 }
 
 .indicator-item {
-    background-color: #888 !important;
+    background-color: rgba(0, 0, 0, 0) !important;
     width: 8px !important;
     height: 8px !important;
     margin-left: 6px !important;
     margin-right: 6px !important;
     bottom: 1em;
     box-shadow: 1px 1px 4px black;
+    border: 1px solid white;
 }
 
 .indicator-item.active {
