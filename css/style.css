@@ -373,7 +373,7 @@ ol li {
 }
 
 #footer .row {
-    padding: 1.5em 4px 0em 4px;
+    padding: 1.5em 4px 1em 4px;
 }
 
 .fa-instagram {
@@ -382,4 +382,9 @@ ol li {
 
 #footer a {
     color: white !important;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
 }
