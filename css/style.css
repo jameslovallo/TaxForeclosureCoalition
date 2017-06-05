@@ -72,10 +72,11 @@
 .title hr {
     background: white;
     margin-top: 1em;
+    width: 33%;
 }
 
 hr {
-    width: 30%;
+    width: 33%;
     height: 0.33em;
     background: black;
     margin-bottom: 1.6em;
