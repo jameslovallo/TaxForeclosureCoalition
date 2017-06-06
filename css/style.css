@@ -391,6 +391,7 @@ ol li {
 .copyright {
     text-align: center;
     color: white;
+    margin: 0.5em 0em 0.5em 0em;
 }
 
 .modal-footer {
