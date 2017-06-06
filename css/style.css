@@ -400,3 +400,13 @@ ol li {
 .fa-stack {
     margin-bottom: 8px
 }
+
+#partners {
+    text-align: center;
+    padding: 1em 1em 0.25em 1em;
+}
+
+#partners img {
+    height: 75px;
+    margin: 1em;
+}
