@@ -330,7 +330,8 @@ ol li {
     top: 1.33em !important;
 }
 
-.social .fa {
+.social .fab,
+.social .fas {
     font-size: 2em;
     float: left;
     position: relative !important;
