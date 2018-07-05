@@ -495,9 +495,12 @@ ol li {
     margin-right: 5px;
 }
 
-@media only screen and (max-width: 374px) {
+@media only screen and (min-width: 993px) and (max-width: 1300px) {
     .actionCardTitle {
         font-size: 1.25em;
+    }
+    .actionIcon {
+        margin-left: 5px;
     }
 }
 
