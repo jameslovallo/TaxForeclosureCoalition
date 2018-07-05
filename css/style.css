@@ -464,6 +464,11 @@ ol li {
 
 .mac .fa-times-circle.modal-close {
     left: 8px;
+    margin-bottom: 8px;
+}
+
+.mac .modal .modal-content {
+    padding-top: 32px;
 }
 
 .pc #announcement .modal-close {
