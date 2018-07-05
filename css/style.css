@@ -485,8 +485,14 @@ ol li {
     text-shadow: none;
 }
 
-#announcement .btn {
-    padding: 0px 12px;
+.link-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.link-row .btn {
+    margin: 5px 0px;
 }
 
 @media only screen and (min-width: 993px) and (max-width: 1300px) {
@@ -511,6 +517,13 @@ ol li {
     #announcement {
         border-radius: 10px;
     }
+    .link-row {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .link-row a {
+        width: calc(50% - 10px);
+    }
 }
 
 @media only screen and (min-width:1024px) {
@@ -529,4 +542,9 @@ ol li {
     .slides {
         height: 440px !important;
     }
+}
+
+h6 {
+    font-size: 1.25em;
+    font-weight: bold;
 }
