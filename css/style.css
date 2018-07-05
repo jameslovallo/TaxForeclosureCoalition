@@ -296,7 +296,12 @@ ol li {
 }
 
 .modal {
-    background: rgba(250, 250, 250, 0.9);
+    background: rgba(250, 250, 250, 0.95);
+}
+
+.mac .modal {
+    backdrop-filter: blur(10px);
+    box-shadow: none;
 }
 
 .modal-action {
@@ -453,58 +458,69 @@ ol li {
     text-shadow: 1px 1px 1px black;
 }
 
-.pc #announcementDesktop .modal-content .modal-close {
+.pc .fa-times-circle.modal-close {
     position: absolute;
-    top: 10px !important;
-    right: 10px !important;
+    top: 8px !important;
+    right: 6px !important;
     text-shadow: none;
+    font-size: 20px;
+    z-index: 999
+}
+
+.mac .fa-times-circle.modal-close {
+    position: absolute;
+    top: -8px !important;
+    left: -8px !important;
+    font-size: 16px;
+    z-index: 999
+}
+
+#announcement .modal-close,
+#announcemnetDesktop .modal-close {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.mac #announcementDesktop .modal-content .modal-close {
-    position: absolute;
-    top: -.5em !important;
-    left: -.5em !important;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.33) color: white;
-    font-size: .75em;
-}
-
-.mac #announcementDesktop {
-    overflow: visible;
-}
-
-#announcementDesktop .modal-content .modal-close:hover {
+#announcement .fa-times-circle.modal-close:hover,
+#announcement .fa-times-circle.modal-close:hover {
     color: white;
     transition: 0.25s;
     transform: scale(1.2);
 }
 
-#announcement .chip,
-#announcementDesktop .chip {
+#announcement .chip {
     background: rgba(0, 0, 0, 0.33);
     color: white;
     text-shadow: none;
     margin-bottom: 1em;
 }
 
-#announcement .modal-content a,
-#announcementDesktop .modal-content a {
+#announcement .modal-content a {
     color: white;
     display: block;
 }
 
-#announcement .fa-exclamation-triangle,
-#announcementDesktop .fa-exclamation-triangle {
+#announcement .fa-exclamation-triangle {
     margin-right: 5px;
-}
-
-#announcementDesktop {
-    border-radius: 10px;
 }
 
 @media only screen and (max-width: 374px) {
     .actionCardTitle {
         font-size: 1.25em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .modal-content .modal-close {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 501px) {
+    #announcement p {
+        font-size: 1.5em;
+    }
+    #announcement {
+        border-radius: 10px;
     }
 }
 
@@ -524,4 +540,8 @@ ol li {
     .slides {
         height: 440px !important;
     }
+}
+
+.bottom-sheet {
+    max-width: 500px;
 }
