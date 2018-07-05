@@ -469,6 +469,7 @@ ol li {
     background-position: center left;
     color: white;
     text-shadow: 1px 1px 1px black;
+    font-size: 1.5em;
 }
 
 #announcement .modal-close {
@@ -477,12 +478,6 @@ ol li {
 
 #announcement .fa-times-circle.modal-close:hover {
     color: white;
-}
-
-#announcement .chip {
-    background: rgba(0, 0, 0, 0.33);
-    color: white;
-    text-shadow: none;
 }
 
 .link-row {
