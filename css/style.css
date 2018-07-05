@@ -313,7 +313,7 @@ ol li {
 }
 
 .bottom-sheet {
-    max-height: 60% !important;
+    max-height: 75% !important;
 }
 
 .social.policy.row {
@@ -502,7 +502,7 @@ ol li {
 }
 
 @media only screen and (max-width: 500px) {
-    .modal-content .modal-close {
+    .fa-times-circle.modal-close {
         display: none;
     }
 }
@@ -532,8 +532,4 @@ ol li {
     .slides {
         height: 440px !important;
     }
-}
-
-.bottom-sheet {
-    max-width: 500px;
 }
