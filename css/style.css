@@ -430,7 +430,7 @@ ol li {
     align-items: flex-start;
     justify-content: center;
     line-height: 10px;
-    color: #dfdfdf;
+    color: #aaa;
 }
 
 .actionCardContent a:hover .time {
@@ -505,9 +505,6 @@ ol li {
 @media only screen and (max-width: 374px) {
     .actionCardTitle {
         font-size: 1.25em;
-    }
-    .time {
-        display: none;
     }
 }
 
