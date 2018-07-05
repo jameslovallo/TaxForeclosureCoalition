@@ -444,6 +444,23 @@ ol li {
     }
 }
 
+.time {
+    height: 4em;
+    width: 4em;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    line-height: 10px;
+    color: #dfdfdf;
+}
+
+.actionCardContent a:hover .time {
+    color: red;
+}
+
 #announcement,
 #announcementDesktop {
     max-height: none !important;
@@ -458,6 +475,29 @@ ol li {
     background-size: 125%;
     color: white;
     text-shadow: 1px 1px 1px black;
+}
+
+.pc #announcementDesktop .modal-content .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-shadow: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.mac #announcementDesktop .modal-content .modal-close {
+    position: absolute;
+    top: 3px;
+    left: 8px;
+    text-shadow: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .75em;
+}
+
+#announcementDesktop .modal-content .modal-close:hover {
+    color: white;
+    transition: 0.25s;
+    transform: scale(1.2);
 }
 
 #announcement .chip,

@@ -684,6 +684,7 @@
 								<span class="month">jun</span>
 								<span class="day">14</span>
 							</div>
+							<div class="time" style="transform: rotate(60deg)">•</div>
 							<span class="details">
 								Reparations are Possible!
 								<br> Corner of Majestic &amp; Beaverland</span>
@@ -695,6 +696,7 @@
 								<span class="month">mar</span>
 								<span class="day">24</span>
 							</div>
+							<div class="time" style="transform: rotate(-60deg)">•</div>
 							<span class="details">
 								PTE Outreach Program
 								<br> Cathedral Church of St. Paul</span>
@@ -706,6 +708,7 @@
 								<span class="month">mar</span>
 								<span class="day">3</span>
 							</div>
+							<div class="time" style="transform: rotate(0deg)">•</div>
 							<span class="details">
 								Homeowner Resource Fair
 								<br> Wayne State University Law</span>
@@ -717,6 +720,7 @@
 								<span class="month">oct</span>
 								<span class="day">28</span>
 							</div>
+							<div class="time" style="transform: rotate(0deg)">•</div>
 							<span class="details">
 								Community Speak Out
 								<br> Wayne State University Law</span>
@@ -1263,6 +1267,7 @@
 				<span class="fas fa-exclamation-triangle"></span> Apply Immediately! The deadline is July 13th!
 			</div>
 			<a href="http://www.aclumich.org/sites/default/files/MorningSide%20Foreclosure%20Settlement%20Order%20SIGNED.pdf" target="_blank">Click here to read the full text of the settlement order.</a>
+			<div class="modal-close fas fa-times-circle"></div>
 		</div>
 		<div class="modal-footer">
 			<a href="http://www.aclumich.org/article/aclu-naacp-legal-defense-fund-settle-tax-foreclosure-case-enabling-low-income-detroiters"
@@ -1310,6 +1315,16 @@
 			var q = window.matchMedia("(max-width: 500px)")
 			modalLauncher(q) // Call listener function at run time
 			q.addListener(modalLauncher) // Attach listener function on state changes
+
+			function agentID() {
+				if (navigator.userAgent.indexOf('Mac OS X') != -1) {
+					$("body").addClass("mac");
+				} else {
+					$("body").addClass("pc");
+				}
+			}
+
+			agentID()
 		});
 	</script>
 	<script>
