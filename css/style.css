@@ -114,24 +114,6 @@ ol li {
     z-index: 999;
 }
 
-@media only screen and (min-width:1024px) {
-    .slider {
-        height: 700px !important;
-    }
-    .slides {
-        height: 700px !important;
-    }
-}
-
-@media only screen and (max-width:1023px) {
-    .slider {
-        height: 440px !important;
-    }
-    .slides {
-        height: 440px !important;
-    }
-}
-
 .caption {
     margin-top: 0px !important;
     margin-bottom: 0px !important;
@@ -438,12 +420,6 @@ ol li {
     text-align: center;
 }
 
-@media only screen and (max-width: 374px) {
-    .actionCardTitle {
-        font-size: 1.25em;
-    }
-}
-
 .time {
     height: 4em;
     width: 4em;
@@ -521,4 +497,31 @@ ol li {
 
 #announcementDesktop {
     border-radius: 10px;
+}
+
+@media only screen and (max-width: 374px) {
+    .actionCardTitle {
+        font-size: 1.25em;
+    }
+    .time {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .slider {
+        height: 700px !important;
+    }
+    .slides {
+        height: 700px !important;
+    }
+}
+
+@media only screen and (max-width:1023px) {
+    .slider {
+        height: 440px !important;
+    }
+    .slides {
+        height: 440px !important;
+    }
 }
