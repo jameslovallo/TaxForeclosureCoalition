@@ -463,11 +463,14 @@ ol li {
 
 .mac #announcementDesktop .modal-content .modal-close {
     position: absolute;
-    top: 8px !important;
-    left: 8px !important;
-    text-shadow: none;
-    color: rgba(255, 255, 255, 0.5);
+    top: -.5em !important;
+    left: -.5em !important;
+    color: white;
     font-size: .75em;
+}
+
+.mac #announcementDesktop {
+    overflow: visible;
 }
 
 #announcementDesktop .modal-content .modal-close:hover {
