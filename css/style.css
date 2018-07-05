@@ -487,7 +487,7 @@ ol li {
 
 .mac #announcementDesktop .modal-content .modal-close {
     position: absolute;
-    top: 3px;
+    top: 8px;
     left: 8px;
     text-shadow: none;
     color: rgba(255, 255, 255, 0.5);
