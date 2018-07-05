@@ -56,7 +56,7 @@
 }
 
 #demands {
-    text-align: center;
+    text-align: left;
     margin-top: 3em;
     margin-bottom: 2.5em;
 }
@@ -437,22 +437,6 @@ ol li {
     color: red;
 }
 
-#announcement,
-#announcementDesktop {
-    max-height: none !important;
-    max-width: 520px;
-}
-
-#announcement .modal-content,
-#announcementDesktop .modal-content {
-    background-image: url('../img/announcement.jpg');
-    background-size: cover;
-    background-position: center left;
-    background-size: 125%;
-    color: white;
-    text-shadow: 1px 1px 1px black;
-}
-
 .fa-times-circle.modal-close {
     position: absolute;
     right: 6px;
@@ -471,11 +455,27 @@ ol li {
     padding-top: 32px;
 }
 
-.pc #announcement .modal-close {
+#announcement,
+#announcementDesktop {
+    max-height: none !important;
+    max-width: 520px;
+}
+
+#announcement .modal-content,
+#announcementDesktop .modal-content {
+    background-image: url('../img/announcement.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center left;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+#announcement .modal-close {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.pc #announcement .fa-times-circle.modal-close:hover {
+#announcement .fa-times-circle.modal-close:hover {
     color: white;
 }
 
@@ -483,16 +483,10 @@ ol li {
     background: rgba(0, 0, 0, 0.33);
     color: white;
     text-shadow: none;
-    margin-bottom: 1em;
 }
 
-#announcement .modal-content a {
-    color: white;
-    display: block;
-}
-
-#announcement .fa-exclamation-triangle {
-    margin-right: 5px;
+#announcement .btn {
+    padding: 0px 12px;
 }
 
 @media only screen and (min-width: 993px) and (max-width: 1300px) {
@@ -512,7 +506,7 @@ ol li {
 
 @media only screen and (min-width: 501px) {
     #announcement p {
-        font-size: 1.5em;
+        font-size: 1.25em;
     }
     #announcement {
         border-radius: 10px;
