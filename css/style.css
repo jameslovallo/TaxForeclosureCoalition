@@ -451,7 +451,7 @@ ol li {
 
 #announcement .modal-content,
 #announcementDesktop .modal-content {
-    background: linear-gradient(to bottom, rgb(83, 203, 241, 0.85) 0%, rgb(0, 172, 193, 0.85) 100%), url('../img/block.jpg');
+    background-image: url('../img/announcement.jpg');
     background-size: cover;
     background-position: center left;
     background-size: 125%;
@@ -459,16 +459,9 @@ ol li {
     text-shadow: 1px 1px 1px black;
 }
 
-#announcemnetDesktop.modal-content {
-    background: linear-gradient(to bottom, rgb(83, 203, 241, 0.85) 0%, rgb(0, 172, 193, 0.85) 100%), url('../img/block.jpg');
-    background-size: cover;
-    background-position: center left;
-    background-size: 125%;
-}
-
 #announcement .chip,
 #announcementDesktop .chip {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.33);
     color: white;
     text-shadow: none;
     margin-bottom: 1em;
@@ -483,4 +476,8 @@ ol li {
 #announcement .fa-exclamation-triangle,
 #announcementDesktop .fa-exclamation-triangle {
     margin-right: 5px;
+}
+
+#announcementDesktop {
+    border-radius: 10px;
 }
