@@ -1309,7 +1309,6 @@
 
 			var q = window.matchMedia("(max-width: 500px)")
 			modalTweaker(q) // Call listener function at run time
-			q.addListener(modalTweaker) // Attach listener function on state changes
 
 			function agentID() {
 				if (navigator.userAgent.indexOf('Mac OS X') != -1) {
