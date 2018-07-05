@@ -451,14 +451,17 @@ ol li {
 
 #announcement .modal-content,
 #announcementDesktop .modal-content {
-    background: linear-gradient(to bottom, #53cbf1 0%, #00acc1 100%);
+    background: linear-gradient(to bottom, rgb(83, 203, 241, 0.85) 0%, rgb(0, 172, 193, 0.85) 100%), url(../img/block.jpg);
+    background-size: cover;
+    background-position: center left;
+    background-size: 125%;
     color: white;
     text-shadow: 1px 1px 1px black;
 }
 
 #announcement .chip,
 #announcementDesktop .chip {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.33);
     color: white;
     text-shadow: none;
     margin-bottom: 1em;
