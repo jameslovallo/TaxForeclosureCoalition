@@ -447,6 +447,7 @@ ol li {
 #announcement,
 #announcementDesktop {
     max-height: none !important;
+    max-width: 520px;
 }
 
 #announcement .modal-content,
