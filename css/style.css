@@ -464,7 +464,7 @@ ol li {
 
 .mac .fa-times-circle.modal-close {
     left: 8px;
-    margin-bottom: 8px;
+    font-size: 16px
 }
 
 .mac .modal .modal-content {
