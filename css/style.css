@@ -299,11 +299,6 @@ ol li {
     background: rgba(250, 250, 250, 0.95);
 }
 
-.mac .modal {
-    backdrop-filter: blur(10px);
-    box-shadow: none;
-}
-
 .modal-action {
     font-weight: 400;
     color: white;
@@ -458,33 +453,25 @@ ol li {
     text-shadow: 1px 1px 1px black;
 }
 
-.pc .fa-times-circle.modal-close {
+.fa-times-circle.modal-close {
     position: absolute;
-    top: 8px !important;
-    right: 6px !important;
+    right: 6px;
+    top: 8px;
     text-shadow: none;
     font-size: 20px;
     z-index: 999
 }
 
 .mac .fa-times-circle.modal-close {
-    position: absolute;
-    top: -8px !important;
-    left: -8px !important;
-    font-size: 16px;
-    z-index: 999
+    left: 8px;
 }
 
-#announcement .modal-close,
-#announcemnetDesktop .modal-close {
+.pc #announcement .modal-close {
     color: rgba(255, 255, 255, 0.5);
 }
 
-#announcement .fa-times-circle.modal-close:hover,
-#announcement .fa-times-circle.modal-close:hover {
+.pc #announcement .fa-times-circle.modal-close:hover {
     color: white;
-    transition: 0.25s;
-    transform: scale(1.2);
 }
 
 #announcement .chip {
