@@ -465,7 +465,7 @@ ol li {
     position: absolute;
     top: -.5em !important;
     left: -.5em !important;
-    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.33) color: white;
     font-size: .75em;
 }
 
