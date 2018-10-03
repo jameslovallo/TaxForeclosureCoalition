@@ -363,8 +363,8 @@ select:-webkit-autofill:focus {
 
 .topLink {
 	position: absolute;
-	width: 250px;
-	left: calc(50vw - 125px);
+	width: 280px;
+	left: calc(50vw - 140px);
 	bottom: 10vh;
 	z-index: 10;
 	height: 60px;
@@ -373,6 +373,7 @@ select:-webkit-autofill:focus {
 	justify-content: center;
 	padding: 0 !important;
 	font-weight: bold;
+	border-radius: 30px;
 }
 
 .actionCardLink {
