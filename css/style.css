@@ -10,6 +10,8 @@
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
+	background: url('../img/aerial.jpg') center center;
+	background-size: cover;
 }
 
 #header:before {
