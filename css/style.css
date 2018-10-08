@@ -156,16 +156,6 @@ ol li {
 	background-color: white !important;
 }
 
-.factShare {
-	position: absolute;
-	right: 0px;
-	bottom: -29px;
-}
-
-.factShare a {
-	color: white;
-}
-
 .slideLabel {
 	position: absolute;
 	bottom: -28px;

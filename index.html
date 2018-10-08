@@ -124,85 +124,55 @@
 			<ul class="slides">
 				<li>
 					<img src="img/block.jpg">
-
 					<div class="caption center-align">
 						<h5 class="light grey-text text-lighten-3">Property tax bills are calculated by multiplying the assessed value of
 							a property by the property tax rate.</h5>
 						<span class="slideLabel">1/6</span>
-						<div class="factShare">
-							<a class="fab fa-fw fa-facebook" href=""></a>
-							<a class="fab fa-fw fa-twitter" href=""></a>
-						</div>
 					</div>
 				</li>
 				<li>
 					<img src="img/detroit.jpg">
-
 					<div class="caption center-align">
 						<h5 class="light grey-text text-lighten-3">Between 2009-2015, Detroit assessed 55 to 85 percent of its
 							residential properties at over 50% of the property&#39;s
 							market value in violation of the Michigan Constitution.
 						</h5>
 						<span class="slideLabel">2/6</span>
-						<div class="factShare">
-							<a class="fab fa-fw fa-facebook" href=""></a>
-							<a class="fab fa-fw fa-twitter" href=""></a>
-						</div>
 					</div>
 				</li>
 				<li>
 					<img src="img/aerial.jpg">
-
 					<div class="caption center-align">
 						<h5 class="light grey-text text-lighten-3">As a result of illegally inflated assessments, in 2015 alone, Wayne
 							County treasurer foreclosed on 28,158 Detroit homes.</h5>
 						<span class="slideLabel">3/6</span>
-						<div class="factShare">
-							<a class="fab fa-fw fa-facebook" href=""></a>
-							<a class="fab fa-fw fa-twitter" href=""></a>
-						</div>
 					</div>
 				</li>
 				<li>
 					<img src="img/planning.jpg">
-
 					<div class="caption center-align">
 						<h5 class="light grey-text text-lighten-3">Detroit&#39;s assessment office lacked the personnel to annually
 							update the market value of properties resulting in
 							assessments based on incomplete and inaccurate information.</h5>
 						<span class="slideLabel">4/6</span>
-						<div class="factShare">
-							<a class="fab fa-fw fa-facebook" href=""></a>
-							<a class="fab fa-fw fa-twitter" href=""></a>
-						</div>
 					</div>
 				</li>
 				<li>
 					<img src="img/pen.jpg">
-
 					<div class="caption center-align">
 						<h5 class="light grey-text text-lighten-3">Detroit residents had the right to appeal illegally inflated property
 							assessments, but this can be difficult for poor
 							and working class families who have limited time, low information, and insufficient monetary resources.</h5>
 						<span class="slideLabel">5/6</span>
-						<span class="factShare">
-							<a class="fab fa-fw fa-facebook" href=""></a>
-							<a class="fab fa-fw fa-twitter" href=""></a>
-						</span>
 					</div>
 				</li>
 				<li>
 					<img src="img/gavel.jpg">
-
 					<div class="caption center-align">
 						<h5 class="light grey-text text-lighten-3">Wayne County failed to assert its statutory authority and hold the
 							City of Detroit accountable for it&#39;s unconstitutional
 							property assessment practices.</h5>
 						<span class="slideLabel">6/6</span>
-						<span class="factShare">
-							<a class="fab fa-fw fa-facebook" href=""></a>
-							<a class="fab fa-fw fa-twitter" href=""></a>
-						</span>
 					</div>
 				</li>
 			</ul>
@@ -1204,14 +1174,12 @@
 	<script type="text/javascript " src="js/materialize.min.js"></script>
 	<script>
 		$(document).ready(function () {
-			$('.slider').slider({
-				interval: 10000
-			});
 			$('select').material_select();
 			$('.modal').modal();
 			$('.carousel.carousel-slider').carousel({
 				fullWidth: true
 			});
+			$('.slider').slider();
 
 			function modalTweaker() {
 				var q = window.matchMedia("(max-width: 500px)")
