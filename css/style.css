@@ -550,6 +550,12 @@ select:-webkit-autofill:focus {
 	.slides {
 		height: 700px !important;
 	}
+
+	.caption {
+		border-top: 0px;
+		background: black;
+		padding: 0 10px;
+	}
 }
 
 @media only screen and (max-width:1023px) {
