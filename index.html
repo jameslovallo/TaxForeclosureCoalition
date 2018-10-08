@@ -1176,29 +1176,10 @@
 		$(document).ready(function () {
 			$('select').material_select();
 			$('.modal').modal();
+			$('.slider').slider();
 			$('.carousel.carousel-slider').carousel({
 				fullWidth: true
 			});
-			$('.slider').slider();
-
-			function modalTweaker() {
-				var q = window.matchMedia("(max-width: 500px)")
-				if (q.matches) { // If media query matches
-					$(".modal").addClass("bottom-sheet");
-				} else {
-					$(".modal").removeClass("bottom-sheet");
-				}
-			}
-
-			function agentID() {
-				if (navigator.userAgent.indexOf('Mac OS X') != -1) {
-					$("body").addClass("mac");
-				} else {
-					$("body").addClass("pc");
-				}
-			}
-			modalTweaker();
-			agentID();
 		});
 	</script>
 </body>
