@@ -27,19 +27,6 @@
 	overflow: hidden;
 }
 
-#header:after {
-	content: "";
-	position: absolute;
-	z-index: 2;
-	height: calc(100vh + 200px);
-	width: calc(100% + 200px);
-	top: -100px;
-	left: -100px;
-	box-shadow: inset 0 0 calc(10vh + 10vw * 0.5) calc(10vh + 10vw * 0.5) rgba(0, 0, 0, 0.75);
-	border-radius: 100px;
-	overflow: hidden;
-}
-
 .face {
 	min-height: 0px !important;
 	background: top center no-repeat;
