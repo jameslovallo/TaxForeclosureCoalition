@@ -4,7 +4,7 @@
 
 #header {
 	height: 100vh;
-	width: 100vw;
+	width: 100%;
 	background: #444;
 	top: 0px;
 	position: relative;
@@ -19,7 +19,7 @@
 	position: absolute;
 	z-index: 3;
 	height: 100vh;
-	width: 100vw;
+	width: 100%;
 	top: 0px;
 	left: 0px;
 	background: url("https://raw.githubusercontent.com/patrickonparker/Bernadette-Foreclosure/gh-pages/img/TF-Logo.png") no-repeat center center, rgba(0, 0, 0, 0.05);
@@ -32,7 +32,7 @@
 	position: absolute;
 	z-index: 2;
 	height: calc(100vh + 200px);
-	width: calc(100vw + 200px);
+	width: calc(100% + 200px);
 	top: -100px;
 	left: -100px;
 	box-shadow: inset 0 0 calc(10vh + 10vw * 0.5) calc(10vh + 10vw * 0.5) rgba(0, 0, 0, 0.75);
@@ -117,10 +117,7 @@ ol li {
 }
 
 .caption {
-	margin-top: 0px !important;
-	margin-bottom: 0px !important;
-	text-align: left !important;
-	top: auto !important;
+	top: initial !important;
 	bottom: 3em !important;
 	left: 2em !important;
 	width: calc(100% - 4em) !important;
@@ -131,10 +128,10 @@ ol li {
 }
 
 .caption h5 {
-	font-family: 'Roboto' !important;
-	font-weight: 500 !important;
 	font-size: 1.4em;
+	font-weight: bold !important;
 	text-transform: none;
+	margin: 10px 0;
 }
 
 .slides li img {
@@ -176,6 +173,7 @@ ol li {
 .actionCardContent {
 	height: 21em;
 	padding: 1em;
+	position: relative;
 }
 
 #action .row {
@@ -188,10 +186,6 @@ ol li {
 	padding: 0px;
 }
 
-#joinTheFight .col {
-	padding: 0 .75rem;
-}
-
 #learnMore {
 	background: url("https://github.com/patrickonparker/Bernadette-Foreclosure/blob/gh-pages/img/learnMore.jpg?raw=true") no-repeat bottom left;
 	background-size: cover;
@@ -202,16 +196,22 @@ ol li {
 	background: url("https://github.com/patrickonparker/Bernadette-Foreclosure/blob/gh-pages/img/joinTheFight.jpg?raw=true") no-repeat bottom center, rgba(0, 0, 0, 0.7);
 	background-size: cover;
 	text-align: center;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	padding: 0 0;
 }
 
 #joinTheFight form {
-	background: rgba(0, 0, 0, 0.7);
-	padding: 20px 20px 30px 20px !important;
-	border: 1px solid rgba(255, 255, 255, 0.33);
-	border-radius: 8px;
+	height: 100%;
+	width: 100%;
+	padding: 20px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+#joinTheFight form .row {
+	margin-bottom: 1em;
+}
+
+#joinTheFight form .row .col {
+	padding: 0 .75rem;
 }
 
 input:-webkit-autofill,
@@ -369,9 +369,10 @@ select:-webkit-autofill:focus {
 }
 
 .actionCardLink {
-	position: relative;
-	top: 15.7em;
+	position: absolute;
+	bottom: 1em;
 	width: 75%;
+	left: calc(25% / 2);
 }
 
 .dashedBorder {
@@ -419,7 +420,7 @@ select:-webkit-autofill:focus {
 
 #partners {
 	text-align: center;
-	padding: 1em 1em 0.25em 1em;
+	padding: 3em 1em;
 }
 
 #partners img {
@@ -439,86 +440,6 @@ select:-webkit-autofill:focus {
 	margin-top: 3em;
 	width: 100%;
 	text-align: center;
-}
-
-.time {
-	height: 4em;
-	width: 4em;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	display: flex;
-	align-items: flex-start;
-	justify-content: center;
-	line-height: 10px;
-	color: #aaa;
-}
-
-.actionCardContent a:hover .time {
-	color: red;
-}
-
-.fa-times-circle.modal-close {
-	position: absolute;
-	right: 6px;
-	top: 8px;
-	text-shadow: none;
-	font-size: 20px;
-	z-index: 999
-}
-
-.mac .fa-times-circle.modal-close {
-	left: 8px;
-	font-size: 16px
-}
-
-.mac .modal .modal-content {
-	padding-top: 32px;
-}
-
-#announcement,
-#announcementDesktop {
-	max-height: none !important;
-	max-width: 520px;
-}
-
-#announcement .modal-content,
-#announcementDesktop .modal-content {
-	background-image: url('../img/announcement.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center left;
-	color: white;
-	text-shadow: 1px 1px 1px black;
-	font-size: 1.25em;
-}
-
-#announcement .modal-close {
-	color: rgba(255, 255, 255, 0.5);
-}
-
-#announcement .fa-times-circle.modal-close:hover {
-	color: white;
-}
-
-.link-row {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between
-}
-
-.link-row .btn {
-	margin: 10px 0px;
-}
-
-@media only screen and (min-width: 993px) and (max-width: 1300px) {
-	.actionCardTitle {
-		font-size: 1.25em;
-	}
-
-	.actionIcon {
-		margin-left: 5px;
-	}
 }
 
 @media only screen and (max-width: 500px) {
@@ -542,6 +463,16 @@ select:-webkit-autofill:focus {
 	}
 }
 
+@media only screen and (max-width:1023px) {
+	.slider {
+		height: 440px !important;
+	}
+
+	.slides {
+		height: 440px !important;
+	}
+}
+
 @media only screen and (min-width:1024px) {
 	.slider {
 		height: 700px !important;
@@ -552,19 +483,20 @@ select:-webkit-autofill:focus {
 	}
 
 	.caption {
-		border-top: 0px;
-		background: black;
-		padding: 0 10px;
+		width: 800px !important;
+		left: calc(50% - 400px) !important;
+		background: rgba(0, 0, 0, 0.5);
+		padding: 0 30px;
 	}
 }
 
-@media only screen and (max-width:1023px) {
-	.slider {
-		height: 440px !important;
+@media only screen and (min-width: 993px) and (max-width: 1300px) {
+	.actionCardTitle {
+		font-size: 1.25em;
 	}
 
-	.slides {
-		height: 440px !important;
+	.actionIcon {
+		margin-left: 5px;
 	}
 }
 
