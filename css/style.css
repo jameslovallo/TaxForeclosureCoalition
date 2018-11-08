@@ -190,7 +190,7 @@ ol li {
 	height: 100%;
 	width: 100%;
 	padding: 20px;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(40, 24, 72, 0.5);
 }
 
 #joinTheFight form .row {
@@ -474,6 +474,13 @@ select:-webkit-autofill:focus {
 		left: calc(50% - 400px) !important;
 		background: rgba(0, 0, 0, 0.5);
 		padding: 0 30px;
+	}
+
+	.modal.bottom-sheet {
+		height: 60vh;
+		width: 50vw;
+		top: 20vh;
+		left: 25vw;
 	}
 }
 
