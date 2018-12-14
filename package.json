@@ -1,0 +1,19 @@
+{
+  "name": "taxforeclosurecoalition",
+  "version": "2.0.0",
+  "description": "![alt tag](https://raw.github.com/dogfalo/materialize/master/images/materialize.gif)\r ===========",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickonparker/Bernadette-Foreclosure.git"
+  },
+  "author": "James Lovallo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrickonparker/Bernadette-Foreclosure/issues"
+  },
+  "homepage": "https://github.com/patrickonparker/Bernadette-Foreclosure#readme"
+}
