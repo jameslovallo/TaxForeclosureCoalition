@@ -10,7 +10,7 @@
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
-	background: url('../img/aerial.jpg') center center;
+	background: url('../img/house.jpg') center center;
 	background-size: cover;
 }
 
