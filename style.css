@@ -446,6 +446,7 @@ form .col {
 		opacity: 1 !important;
 		padding: 0;
 		height: auto !important;
+		z-index: 1 !important;
 	}
 
 	.section-wrapper {
