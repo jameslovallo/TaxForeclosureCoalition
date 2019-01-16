@@ -372,6 +372,20 @@ form .col {
 
 /* MEDIA QUERIES */
 
+@media (min-height: 940px) {
+
+	.target,
+	.target img {
+		border-radius: 30px;
+	}
+
+	.target img {
+		height: 54px;
+		width: 54px;
+	}
+
+}
+
 @media (max-height: 868px) {
 
 	section {
