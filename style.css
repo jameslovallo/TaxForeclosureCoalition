@@ -118,6 +118,7 @@ section {
 	background-position: center center;
 	background-repeat: no-repeat;
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.66);
+	overflow: hidden;
 }
 
 /* ACTION ITEMS */
@@ -379,11 +380,6 @@ form .col {
 		height: 250px;
 		width: 250px;
 	}
-
-	.accent {
-		width: 40%
-	}
-
 }
 
 @media (max-width: 1200px) {
@@ -396,6 +392,18 @@ form .col {
 		padding: 5px;
 	}
 
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+	.accent {
+		width: 33%;
+		flex-shrink: 0;
+	}
+
+	#aboutus .accent img {
+		height: 250px;
+		width: 250px;
+	}
 }
 
 @media (min-width: 993px) {
@@ -418,7 +426,6 @@ form .col {
 	}
 
 	body>.tabs-content.carousel.carousel-slider {
-		overflow-y: scroll;
 		height: auto !important;
 	}
 
