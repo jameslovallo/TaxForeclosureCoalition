@@ -454,6 +454,10 @@ form .col {
 		box-shadow: none;
 	}
 
+	.sub-section {
+		overflow: auto;
+	}
+
 	#takeaction .section-wrapper {
 		flex-direction: row;
 		padding: 20px;
@@ -551,9 +555,11 @@ form .col {
 
 	#takeaction {
 		background: #dfdfdf;
+		border-top: 1px solid dimgrey;
 	}
 
 	#takeaction h1 {
+		margin-top: 39.2px;
 		color: black;
 		text-shadow: none;
 	}
