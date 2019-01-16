@@ -1,0 +1,549 @@
+/* COMPONENTS */
+
+a {
+	color: #673ab7;
+}
+
+.video-container,
+.collection {
+	border-radius: 20px;
+}
+
+.btn-large {
+	border-radius: 30px;
+}
+
+.fa-phone {
+	transform: scaleX(-1);
+}
+
+/* VIDEO */
+
+.background-video {
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	z-index: -1;
+}
+
+/* NAV */
+
+.nav-extended {
+	background: rgba(0, 0, 0, 0.66);
+}
+
+.nav-wrapper {
+	padding: 0 30px;
+}
+
+.brand-logo {
+	font-weight: bold;
+}
+
+.sidenav {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.sidenav li a {
+	font-size: 18px;
+	font-weight: bold;
+	border: none;
+}
+
+.sidenav li:not(:last-of-type) {
+	border-bottom: 1px solid dimgrey;
+}
+
+.nav-tabs .tabs {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.tabs .tab a {
+	font-weight: bold;
+}
+
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+	background: transparent;
+}
+
+body>.tabs-content.carousel.carousel-slider {
+	width: 100%;
+	height: calc(100vh - 112px) !important;
+}
+
+/* SECTIONS */
+
+section {
+	padding: 60px;
+}
+
+.section-wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	background: white;
+	border-radius: 30px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+	overflow: hidden;
+}
+
+.sub-section {
+	width: 100%;
+	height: 100%;
+	padding: 0 30px 30px 30px;
+	overflow-y: scroll;
+}
+
+.sub-section p,
+.sub-section li {
+	font-size: 18px;
+}
+
+.sub-section li {
+	margin-bottom: 1em;
+}
+
+.accent {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.66);
+}
+
+/* ACTION ITEMS */
+
+/* HOME */
+
+#home .section-wrapper {
+	background: none;
+	box-shadow: none;
+}
+
+.coalition-logo {
+	width: 400px;
+	height: 400px;
+}
+
+.home-footer {
+	position: absolute;
+	bottom: 50px;
+	text-align: center;
+}
+
+/* THE FACTS */
+
+#thefacts .accent {
+	background-image: url('assets/aerial.jpg');
+}
+
+/* GET HELP */
+
+#gethelp .accent {
+	background-image: url('assets/family.jpg');
+}
+
+/* TAKE ACTION */
+
+#takeaction {
+	background: transparent;
+}
+
+#takeaction.active {
+	animation: fadetodark 2s;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+#takeaction .section-wrapper {
+	flex-wrap: wrap;
+	background: none;
+	box-shadow: none;
+}
+
+@keyframes fadetodark {
+	0% {
+		background: transparent;
+	}
+
+	50% {
+		background: transparent;
+	}
+
+	100% {
+		background: rgba(0, 0, 0, 0.5);
+	}
+}
+
+.action-wrapper {
+	width: 33%;
+	height: 50%;
+	padding: 15px;
+}
+
+.action-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+	border-radius: 20px;
+	overflow: hidden;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+	background-size: cover !important;
+}
+
+.action-item .header {
+	height: 2.5em;
+	background: white;
+	color: black;
+	font-size: 18px;
+	line-height: 2.5em;
+	font-weight: 500;
+	text-align: center;
+}
+
+.action-item .btn-large {
+	margin: 20px;
+}
+
+.action-item .btn-large:not(:last-of-type) {
+	margin-bottom: 0;
+}
+
+#events {
+	background: black url('assets/block.jpg') no-repeat center;
+}
+
+#policy {
+	background: black url('assets/detroit.jpg') no-repeat right;
+}
+
+#help {
+	background: black url('assets/family.jpg') no-repeat center;
+}
+
+#literature {
+	background: black url('assets/learnMore.jpg') no-repeat left;
+}
+
+#newsletter {
+	background: black url('assets/planning.jpg') no-repeat left;
+}
+
+#socials {
+	background: black url('assets/aerial.jpg') no-repeat left;
+}
+
+.event {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	line-height: 1em;
+}
+
+.target-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-grow: 1;
+	padding: 20px;
+}
+
+.target {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	color: white;
+	line-height: 1em;
+	border-radius: 20px;
+	background: rgba(0, 0, 0, 0.75)
+}
+
+.target img {
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+	margin-right: 10px;
+}
+
+form {
+	position: relative;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 10px 20px;
+	font-weight: bold;
+}
+
+form .btn-large {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: calc(100% - 40px);
+}
+
+form .row,
+form .col {
+	margin: 5px 0 0 0;
+}
+
+.social-container {
+	text-align: center;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.social-container h4 {
+	text-shadow: 1px 1px 3px black;
+	font-weight: bold;
+}
+
+.action-item .social-container .btn-large {
+	margin: 0 10px 20px 10px;
+}
+
+.fb {
+	background: #3b5998 !important;
+}
+
+.tw {
+	background: #1da1f2 !important;
+}
+
+.yt {
+	background: #ff0000 !important;
+}
+
+/* ABOUT US */
+
+#aboutus .accent {
+	background: url('assets/block.jpg') center center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#partners img {
+	height: 100px;
+	padding: 10px;
+}
+
+/* MODALS */
+
+.modal {
+	background: white;
+	border-radius: 30px;
+}
+
+.modal .collection {
+	margin: 0;
+}
+
+.modal a.collection-item {
+	color: black;
+}
+
+.modal .collection-item p {
+	margin: 0;
+	font-weight: bold;
+}
+
+.modal iframe {
+	margin-bottom: -5px;
+}
+
+.chip {
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-height: 868px) {
+
+	section {
+		padding: 20px;
+	}
+
+	#takeaction .action-wrapper {
+		padding: 10px;
+	}
+
+	.coalition-logo {
+		height: 250px;
+		width: 250px;
+	}
+
+	.accent {
+		width: 40%
+	}
+
+}
+
+@media (max-width: 1200px) {
+
+	#takeaction {
+		padding: 10px;
+	}
+
+	.action-wrapper {
+		padding: 5px;
+	}
+
+}
+
+@media (min-width: 993px) {
+
+	#takeaction h1,
+	.accent h1 {
+		display: none;
+	}
+
+}
+
+@media (max-width: 992px) {
+
+	.nav-wrapper {
+		padding: 0 10px;
+	}
+
+	.tabs {
+		display: none !important;
+	}
+
+	body>.tabs-content.carousel.carousel-slider {
+		overflow-y: scroll;
+		height: auto !important;
+	}
+
+	.carousel.carousel-slider .carousel-item {
+		transform: none !important;
+		position: relative;
+		visibility: visible;
+		opacity: 1 !important;
+		padding: 0;
+		height: auto !important;
+	}
+
+	.section-wrapper {
+		flex-direction: column-reverse;
+		border-radius: 0;
+		box-shadow: none;
+	}
+
+	#takeaction .section-wrapper {
+		flex-direction: row;
+		padding: 20px;
+	}
+
+	#takeaction h1 {
+		margin-left: 30px;
+		margin-bottom: 0px;
+		font-weight: bold;
+		color: white;
+		text-shadow: 3px 3px 5px black;
+	}
+
+	.action-wrapper {
+		width: 50%;
+		padding: 20px;
+	}
+
+	.action-item {
+		height: 400px;
+	}
+
+	#home {
+		height: calc(100vh - 64px) !important;
+	}
+
+	.sub-section:not(.accent) h1 {
+		display: none;
+	}
+
+	.sub-section:not(.accent) {
+		margin-top: 30px;
+	}
+
+	.accent {
+		display: flex;
+		align-items: center;
+		height: 250px;
+		position: relative;
+		background-position-y: 10%;
+		box-shadow: none;
+	}
+
+	.accent h1 {
+		position: relative;
+		font-weight: bold;
+		color: white;
+		z-index: 2;
+	}
+
+	.accent:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: rgba(0, 0, 0, 0.5);
+		z-index: 1;
+	}
+
+	.accent img {
+		display: none;
+	}
+
+	#aboutus .accent {
+		justify-content: flex-start;
+	}
+}
+
+@media (max-width: 768px) {
+
+	.action-wrapper {
+		width: 100%;
+		padding: 10px 10px 20px 10px;
+	}
+
+	.action-item .btn-large {
+		margin: 20px !important;
+	}
+
+	.action-item .btn-large:not(.btn-floating) {
+		width: calc(100% - 40px);
+	}
+
+}
+
+@media (max-width: 600px) {
+
+	#home {
+		height: calc(100vh - 56px) !important;
+		background: url('assets/buildings.jpg') no-repeat right;
+		background-size: cover !important;
+	}
+
+	#takeaction {
+		background: #dfdfdf;
+	}
+
+	#takeaction h1 {
+		color: black;
+		text-shadow: none;
+	}
+
+	.coalition-logo {
+		width: 300px;
+		height: 300px;
+	}
+
+}
