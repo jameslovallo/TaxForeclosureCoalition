@@ -19,10 +19,6 @@ a,
 	font-weight: bold;
 }
 
-.fa-phone {
-	transform: scaleX(-1);
-}
-
 /* VIDEO */
 
 .background-video {
@@ -282,7 +278,7 @@ section {
 	margin-right: 10px;
 }
 
-form {
+#newsletter form {
 	position: relative;
 	height: 100%;
 	background: rgba(0, 0, 0, 0.5);
@@ -290,15 +286,15 @@ form {
 	font-weight: bold;
 }
 
-form .btn-large {
+#newsletter form .btn-large {
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	width: calc(100% - 40px);
 }
 
-form .row,
-form .col {
+#newsletter form .row,
+#newsletter form .col {
 	margin: 5px 0 0 0;
 }
 
@@ -340,6 +336,20 @@ form .col {
 #partners img {
 	height: 100px;
 	padding: 10px;
+}
+
+/* CONTACT US */
+
+#contactus .accent {
+	background: url('assets/planning.jpg') 7% 60%;
+}
+
+#contactus form .row {
+	margin-bottom: 0;
+}
+
+#contactus .btn-large {
+	margin-bottom: 1em;
 }
 
 /* MODALS */
@@ -554,9 +564,11 @@ form .col {
 		background-size: cover !important;
 	}
 
-	#takeaction {
+	#takeaction,
+	#takeaction.active {
 		background: #dfdfdf;
 		border-top: 1px solid dimgrey;
+		animation: none;
 	}
 
 	#takeaction h1 {
