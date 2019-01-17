@@ -40,7 +40,7 @@ a,
 /* NAV */
 
 .nav-extended {
-	background: rgba(0, 0, 0, 0.66);
+	background: rgba(0, 0, 0, 0.75);
 }
 
 .nav-wrapper {
@@ -86,6 +86,50 @@ body>.tabs-content.carousel.carousel-slider {
 	width: 100%;
 	height: calc(100vh - 112px) !important;
 	top: 48px;
+}
+
+.nav-arrow {
+	display: none;
+	position: absolute;
+	top: calc(50% - 27px);
+	align-items: center;
+	justify-content: center;
+	width: 54px;
+	opacity: 0;
+	z-index: 10;
+}
+
+.active .nav-arrow {
+	opacity: 1;
+	transition: .5s .5s;
+}
+
+.nav-arrow.right {
+	right: 30px;
+}
+
+.nav-arrow.left {
+	left: 30px;
+}
+
+.nav-arrow-label {
+	display: none;
+}
+
+.right .nav-arrow-label {
+	margin-right: 10px;
+}
+
+.left .nav-arrow-label {
+	margin-left: 10px;
+}
+
+.nav-arrow:hover {
+	width: auto;
+}
+
+.nav-arrow:hover .nav-arrow-label {
+	display: block;
 }
 
 /* SECTIONS */
@@ -148,7 +192,9 @@ section {
 }
 
 .home-footer {
+	width: 100%;
 	position: absolute;
+	left: 0;
 	bottom: 50px;
 	text-align: center;
 }
@@ -419,6 +465,12 @@ section {
 	}
 }
 
+@media (min-width: 1400px) {
+	.nav-arrow {
+		display: flex;
+	}
+}
+
 @media (min-width: 993px) and (max-width: 1200px) {
 	.accent {
 		width: 33%;
@@ -591,5 +643,7 @@ section {
 }
 
 @media (max-width: 450px) {
-	.btn-large span {display: none;}
+	.btn-large span {
+		display: none;
+	}
 }
