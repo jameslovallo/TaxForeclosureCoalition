@@ -647,3 +647,12 @@ section {
 		display: none;
 	}
 }
+
+@media (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+
+	/* IE10+ styles */
+	.nav-arrow {
+		display: none;
+	}
+}
