@@ -1,5 +1,9 @@
 /* COMPONENTS */
 
+body {
+	overflow-x: hidden;
+}
+
 a,
 .collection a.collection-item {
 	color: #673ab7;
@@ -18,6 +22,10 @@ a,
 .card-action,
 .collection a {
 	font-weight: bold;
+}
+
+.card-action a {
+	white-space: nowrap;
 }
 
 /* VIDEO */
@@ -161,6 +169,7 @@ section {
 
 #takeaction {
 	background: transparent;
+	padding: 45px 0;
 }
 
 #takeaction.active {
@@ -400,10 +409,6 @@ section {
 
 @media (max-height: 800px) {
 
-	section {
-		padding: 20px;
-	}
-
 	#takeaction .action-wrapper {
 		padding: 10px;
 	}
@@ -489,7 +494,7 @@ section {
 	}
 
 	.action-item {
-		height: 400px;
+		height: 300px;
 	}
 
 	#home {
@@ -583,4 +588,8 @@ section {
 		height: 300px;
 	}
 
+}
+
+@media (max-width: 400px) {
+	.btn-large span {display: none;}
 }
