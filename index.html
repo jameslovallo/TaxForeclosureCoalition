@@ -86,7 +86,7 @@
 
 	<!-- CONTENT -->
 
-	<section id="home">
+	<section id="home" class="tab-section">
 		<div class="section-wrapper">
 			<img src="assets/logo.png" class="coalition-logo" alt="Coalition Logo: End Unconstitutional Tax Foreclosures" />
 			<div class="home-footer">
@@ -95,7 +95,7 @@
 		</div>
 	</section>
 
-	<section id="thefacts">
+	<section id="thefacts" class="tab-section">
 		<div class="section-wrapper">
 			<div class="sub-section">
 				<h1>The Facts</h1>
@@ -119,7 +119,7 @@
 		</div>
 	</section>
 
-	<section id="gethelp">
+	<section id="gethelp" class="tab-section">
 		<div class="section-wrapper">
 			<div class="sub-section">
 				<h1>Get Help</h1>
@@ -152,7 +152,7 @@
 		</div>
 	</section>
 
-	<section id="takeaction">
+	<section id="takeaction" class="tab-section">
 		<h1>Take Action</h1>
 		<div class="section-wrapper">
 			<div class="action-wrapper">
@@ -293,7 +293,7 @@
 		</div>
 	</section>
 
-	<section id="aboutus">
+	<section id="aboutus" class="tab-section">
 		<div class="section-wrapper">
 			<div class="sub-section">
 				<h1>About Us</h1>
@@ -533,6 +533,7 @@
 	</div>
 	<!-- SCRIPTS -->
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 	<script>
@@ -558,6 +559,24 @@
 				"lid": "c6e2969b79"
 			})
 		})
+	</script>
+
+	<script>
+		$(document).ready(function () {
+			if ($(window).width() < 993) {
+				$(".tab-section").removeClass("carousel-item");
+			} else {
+				$(".tab-section").addClass("carousel-item");
+			}
+		});
+
+		$(window).resize(function () {
+			if ($(window).width() < 993) {
+				$(".tab-section").removeClass("carousel-item");
+			} else {
+				$(".tab-section").addClass("carousel-item");
+			}
+		});
 	</script>
 
 </body>
