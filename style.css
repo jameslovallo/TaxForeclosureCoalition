@@ -434,7 +434,7 @@ form .col {
 		display: none !important;
 	}
 
-	body>.tabs-content.carousel.carousel-slider {
+	.tabs-content {
 		height: auto !important;
 		top: 0;
 	}
