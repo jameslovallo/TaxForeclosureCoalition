@@ -565,16 +565,24 @@
 		$(document).ready(function () {
 			if ($(window).width() < 993) {
 				$(".tab-section").removeClass("carousel-item");
+				$(".tabs-content").removeClass("carousel");
+				$(".tabs-content").removeClass("carousel-slider");
 			} else {
 				$(".tab-section").addClass("carousel-item");
+				$(".tabs-content").addClass("carousel");
+				$(".tabs-content").addClass("carousel-slider");
 			}
 		});
 
 		$(window).resize(function () {
 			if ($(window).width() < 993) {
 				$(".tab-section").removeClass("carousel-item");
+				$(".tabs-content").removeClass("carousel");
+				$(".tabs-content").removeClass("carousel-slider");
 			} else {
 				$(".tab-section").addClass("carousel-item");
+				$(".tabs-content").addClass("carousel");
+				$(".tabs-content").addClass("carousel-slider");
 			}
 		});
 	</script>
