@@ -129,7 +129,7 @@ body>.tabs-content.carousel.carousel-slider {
 
 .active .nav-arrow {
 	opacity: 1;
-	transition: .5s .5s;
+	transition: .75s .75s;
 }
 
 .nav-arrow.right {
@@ -650,7 +650,7 @@ section {
 	.action-wrapper {
 		width: 100%;
 	}
-	
+
 }
 
 @media (max-width: 600px) {
