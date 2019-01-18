@@ -611,6 +611,21 @@ section {
 		border-top: 1px solid dimgrey;
 	}
 
+	.accent {
+		width: 33%;
+		flex-shrink: 0;
+	}
+
+	.coalition-logo {
+		width: 300px;
+		height: 300px;
+	}
+
+	#aboutus .coalition-logo {
+		width: 200px;
+		height: 200px;
+	}
+
 }
 
 @media (max-width: 768px),
