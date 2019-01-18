@@ -77,6 +77,18 @@ a,
 	box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.8);
 }
 
+#nav-mobile.right a[href*="facebook"]:hover {
+	background: #3b5998;
+}
+
+#nav-mobile.right a[href*="twitter"]:hover {
+	background: #1da1f2;
+}
+
+#nav-mobile.right a[href*="youtube"]:hover {
+	background: #ff0000;
+}
+
 .tab {
 	border-right: 1px solid #333
 }
