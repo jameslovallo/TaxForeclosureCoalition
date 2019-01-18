@@ -1,5 +1,10 @@
 /* COMPONENTS */
 
+html {
+	height: 100% !important;
+	max-height: 100% !important;
+}
+
 body {
 	overflow-x: hidden;
 }
