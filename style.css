@@ -11,9 +11,9 @@ a,
 
 .video-container,
 .video-container iframe,
-.modal .collection {
-	border-radius: 20px;
-	overflow: hidden;
+.collection {
+	border-radius: 20px !important;
+	overflow: hidden !important;
 }
 
 .btn-large {
