@@ -17,8 +17,7 @@ a,
 	border-radius: 30px;
 }
 
-.card-action,
-.collection a {
+.card a:not(.btn-large) {
 	font-weight: bold;
 }
 
