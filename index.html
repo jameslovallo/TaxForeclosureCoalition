@@ -625,32 +625,29 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 	<script>
-		//INITIALIZE COMPONENTS IN jQUERY (SIMPLE SYNTAX)
+		//EVENTS TO RUN ON LOAD
 		$(document).ready(function () {
+			//INITIALIZE COMPONENTS IN jQUERY (SIMPLE SYNTAX)
 			$('.sidenav').sidenav();
 			$('.tabs').tabs({
 				swipeable: true
 			});
 			$('.modal').modal();
-		});
-		// We listen to the resize event
-		window.addEventListener('resize', () => {
-			// We execute the same script as before
+			//ADD OR REMOVE CAROUSEL CLASSES
+			if ($(window).width() < 993) {
+				$(".tab-section").removeClass("carousel-item");
+				$(".tabs-content").removeClass("carousel").removeClass("carousel-slider");
+			} else {
+				$(".tab-section").addClass("carousel-item");
+				$(".tabs-content").addClass("carousel").addClass("carousel-slider");
+			}
+			//SET THE VIEWPORT HEIGHT (--vh) ON LOAD
 			let vh = window.innerHeight * 0.01;
 			document.documentElement.style.setProperty('--vh', `${vh}px`);
 		});
-		//ADD OR REMOVE CAROUSEL CLASSES ON DOCUMENT LOAD, FOR MOBILE
-		$(document).ready(function () {
-			if ($(window).width() < 993) {
-				$(".tab-section").removeClass("carousel-item");
-				$(".tabs-content").removeClass("carousel").removeClass("carousel-slider");
-			} else {
-				$(".tab-section").addClass("carousel-item");
-				$(".tabs-content").addClass("carousel").addClass("carousel-slider");
-			}
-		});
-		//ADD OR REMOVE CAROUSEL CLASSES ON WINDOW RESIZE, FOR MOBILE
+		//EVENTS TO RUN ON RESIZE
 		$(window).resize(function () {
+			//ADD OR REMOVE CAROUSEL CLASSES
 			if ($(window).width() < 993) {
 				$(".tab-section").removeClass("carousel-item");
 				$(".tabs-content").removeClass("carousel").removeClass("carousel-slider");
@@ -658,6 +655,9 @@
 				$(".tab-section").addClass("carousel-item");
 				$(".tabs-content").addClass("carousel").addClass("carousel-slider");
 			}
+			//RESET THE VIEWPORT HEIGHT (--vh) ON SCROLL
+			let vh = window.innerHeight * 0.01;
+			document.documentElement.style.setProperty('--vh', `${vh}px`);
 		});
 		//USED BY MAILCHIMP
 		require(["mojo/signup-forms/Loader"], function (L) {
