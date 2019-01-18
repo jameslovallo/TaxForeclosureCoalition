@@ -591,6 +591,7 @@ section {
 }
 
 @media (min-width: 1024px) and (max-height: 768px) {
+
 	#takeaction {
 		padding: 10px 30px;
 	}
@@ -609,6 +610,15 @@ section {
 		border-radius: 0;
 		border-top: 1px solid dimgrey;
 	}
+
+}
+
+@media (max-width: 768px) {
+
+	.action-wrapper {
+		width: 100%;
+	}
+	
 }
 
 @media (max-width: 600px) {
@@ -649,4 +659,5 @@ section {
 	.nav-arrow {
 		display: none;
 	}
+
 }
