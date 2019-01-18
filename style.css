@@ -144,12 +144,16 @@ body>.tabs-content.carousel.carousel-slider {
 	display: none;
 }
 
-.right .nav-arrow-label {
+.nav-arrow.right .nav-arrow-label {
 	margin-right: 10px;
 }
 
-.left .nav-arrow-label {
+.nav-arrow.left .nav-arrow-label {
 	margin-left: 10px;
+}
+
+.nav-arrow.right[onclick*="set"] .nav-arrow-label {
+	margin: 0 0 0 10px;
 }
 
 .nav-arrow:hover {
