@@ -658,6 +658,10 @@ section {
 		text-shadow: none;
 	}
 
+	#partners img {
+		height: 75px;
+	}
+
 }
 
 @media (max-width: 1100px) {
