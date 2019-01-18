@@ -478,7 +478,8 @@ section {
 
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px),
+(max-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
 
 	.nav-wrapper {
 		padding: 0 10px;
