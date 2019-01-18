@@ -9,11 +9,8 @@ a,
 	color: #673ab7;
 }
 
-.video-container,
-.video-container iframe,
 .collection {
-	border-radius: 20px !important;
-	overflow: hidden !important;
+	border-radius: 20px;
 }
 
 .btn-large {
@@ -490,6 +487,10 @@ section {
 	.tab-section,
 	.section-wrapper {
 		overflow: hidden;
+	}
+
+	.video-container {
+		border-radius: 20px;
 	}
 
 }
