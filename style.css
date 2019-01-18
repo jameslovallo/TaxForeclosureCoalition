@@ -1,10 +1,5 @@
 /* COMPONENTS */
 
-html {
-	height: 100% !important;
-	max-height: 100% !important;
-}
-
 body {
 	overflow-x: hidden;
 }
@@ -37,7 +32,7 @@ a,
 
 .background-video {
 	position: fixed;
-	height: 100vh;
+	height: calc(var(--vh, 1vh) * 100);
 	width: 100vw;
 	z-index: -1;
 }
@@ -86,7 +81,7 @@ a,
 }
 
 .tab:hover {
-	background: rgba(255,255,255,0.1)
+	background: rgba(255, 255, 255, 0.1)
 }
 
 .tab:first-of-type {
@@ -104,7 +99,7 @@ a,
 
 body>.tabs-content.carousel.carousel-slider {
 	width: 100%;
-	height: calc(100vh - 112px) !important;
+	height: calc((var(--vh, 1vh) * 100) - 112px) !important;
 	top: 48px;
 }
 
@@ -570,7 +565,7 @@ section {
 	}
 
 	#home {
-		height: calc(100vh - 64px) !important;
+		height: calc((var(--vh, 1vh) * 100) - 64px) !important;
 	}
 
 	.sub-section:not(.accent) h1 {
@@ -637,7 +632,7 @@ section {
 @media (max-width: 600px) {
 
 	#home {
-		height: calc(100vh - 56px) !important;
+		height: calc((var(--vh, 1vh) * 100) - 56px) !important;
 		background: url('assets/buildings.jpg') no-repeat right;
 		background-size: cover !important;
 	}
