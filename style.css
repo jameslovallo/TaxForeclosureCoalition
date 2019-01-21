@@ -492,15 +492,6 @@ section {
 	margin-top: 1em;
 }
 
-#pop {
-	height: 70%;
-}
-
-#pop iframe {
-	width: 100%;
-	height: 100%;
-}
-
 /* MEDIA QUERIES */
 
 @media (min-width: 1400px) {
