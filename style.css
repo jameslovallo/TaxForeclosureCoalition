@@ -443,6 +443,7 @@ section {
 .modal {
 	background: white;
 	border-radius: 30px;
+	-webkit-overflow-scrolling: touch;
 }
 
 .modal .collection {
@@ -460,6 +461,11 @@ section {
 
 .modal iframe {
 	margin-bottom: -5px;
+}
+
+.modal.bottom-sheet {
+	max-height: 66%;
+	height: auto;
 }
 
 .chip {

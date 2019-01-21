@@ -650,9 +650,11 @@
 			if ($(window).width() < 1025) {
 				$(".tab-section").removeClass("carousel-item");
 				$(".tabs-content").removeClass("carousel").removeClass("carousel-slider");
+				$(".modal").addClass("bottom-sheet");
 			} else {
 				$(".tab-section").addClass("carousel-item");
 				$(".tabs-content").addClass("carousel").addClass("carousel-slider");
+				$(".modal").removeClass("bottom-sheet");
 			}
 			//SET THE VIEWPORT HEIGHT (--vh) ON LOAD
 			let vh = window.innerHeight * 0.01;
@@ -664,9 +666,11 @@
 			if ($(window).width() < 1025) {
 				$(".tab-section").removeClass("carousel-item");
 				$(".tabs-content").removeClass("carousel").removeClass("carousel-slider");
+				$(".modal").addClass("bottom-sheet");
 			} else {
 				$(".tab-section").addClass("carousel-item");
 				$(".tabs-content").addClass("carousel").addClass("carousel-slider");
+				$(".modal").removeClass("bottom-sheet");
 			}
 			//RESET THE VIEWPORT HEIGHT (--vh) ON SCROLL
 			let vh = window.innerHeight * 0.01;
