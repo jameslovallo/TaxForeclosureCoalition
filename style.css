@@ -353,7 +353,6 @@ section {
 .target {
 	display: flex;
 	align-items: center;
-	width: 100%;
 	color: white;
 	line-height: 1em;
 	border-radius: 30px;
@@ -684,7 +683,8 @@ section {
 		text-shadow: none;
 	}
 
-	#partners img {
+	#partners img,
+	.card img {
 		height: 75px;
 	}
 
