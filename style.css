@@ -694,8 +694,7 @@ section {
 
 	#takeaction,
 	#takeaction.active {
-		background: #dfdfdf;
-		border-top: 1px solid dimgrey;
+		background: white;
 		animation: none;
 	}
 
