@@ -649,6 +649,10 @@ section {
 		border-radius: 0;
 	}
 
+	.home-footer {
+		bottom: 20px;
+	}
+
 	#takeaction {
 		padding: 30px;
 	}
