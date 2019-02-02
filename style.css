@@ -6,9 +6,9 @@ body {
 
 .preloader {
 	position: fixed;
-	top: 0;
+	top: -300px;
 	right: 0;
-	bottom: 0;
+	bottom: -300px;
 	left: 0;
 	background: white;
 	z-index: 1000;
