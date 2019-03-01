@@ -441,8 +441,12 @@ section {
 }
 
 #partners img {
-	height: 100px;
+	max-height: 100px;
+	max-width: calc(100% - 10px);
 	padding: 10px;
+	margin: 5px 10px 5px 0;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
 }
 
 /* CONTACT US */
