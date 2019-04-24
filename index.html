@@ -124,10 +124,6 @@
 		<div class="section-wrapper">
 			<div class="sub-section">
 				<h1>The Facts</h1>
-				<div class="video-container z-depth-1">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/bD3vZYDYZsM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-				<br />
 				<ol>
 					<li>From 2011-2015, 1 in 4 Detroit properties were foreclosed upon.</li>
 					<li>The Michigan Constitution states that no property shall be assessed at more than 50% of its market value.</li>
@@ -135,6 +131,13 @@
 					<li>The lowest valued homes (bottom fifth) were assessed at levels, on average, 18 times the constitutional limit.</li>
 					<li>The highest valued homes (top fifth) were assessed, on average, below the constitutional limit.</li>
 				</ol>
+				<div class="video-container z-depth-1">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/Zpfvs-VAMJc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<br />
+				<div class="video-container z-depth-1">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/bD3vZYDYZsM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
 				<br />
 				<a href="#read" class="btn-large modal-trigger deep-purple darken-3 waves-effect waves-light">Read the Literature</a>
 			</div>
@@ -719,6 +722,7 @@
 				swipeable: true
 			});
 			$('.modal').modal();
+			$('.fixed-action-btn').floatingActionButton();
 			//ADD OR REMOVE CAROUSEL CLASSES
 			if ($(window).width() < 1025) {
 				$(".tab-section").removeClass("carousel-item");
